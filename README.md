@@ -12,15 +12,7 @@ The documentation for the `gringo` module is [here](http://potassco.sourceforge.
 
 **Current `gringo` version: 4.5.4**
 
-For each OS, we use the latest versions of Python that are available through the respective package managers.
-
-For Ubuntu, this means the versions of Python you get when you run `sudo apt-get install python` and 
-`sudo apt-get install python3` for Python 2 and Python 3, respectively.
-
-For MacOS, this means the version of Python available through [Homebrew](http://brew.sh/); that is, what you get when you run `brew install python` and `brew install python3` for Python 2 and Python 3, respectively.
-
 The following table shows the exact versions of Python used for each OS configuration:
-
 
 |              |      MacOS 10.10.5     | Ubuntu 14.04 (32-Bit) | Ubuntu 14.04 (64-bit) |
 |:------------:|:----------------------:|:---------------------:|:---------------------:|
@@ -28,7 +20,15 @@ The following table shows the exact versions of Python used for each OS configur
 | **Python 3** |  3.5.1 (from Homebrew) |         3.4.3         |         3.4.3         |
 
 
-The directory structure of this repository is shown below:
+For each OS, we use the latest versions of Python that are available through the respective package managers.
+
+For Ubuntu, this means the versions of Python you get when you run `sudo apt-get install python` and 
+`sudo apt-get install python3` for Python 2 and Python 3, respectively.
+
+For MacOS, this means the version of Python available through [Homebrew](http://brew.sh/); that is, what you get when you run `brew install python` and `brew install python3` for Python 2 and Python 3, respectively.
+
+The directory structure of this repository is as follows:
+
 
 ```
 ├── python2
